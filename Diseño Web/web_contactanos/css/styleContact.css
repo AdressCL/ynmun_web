@@ -1,0 +1,255 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	max-width: 100%;
+	max-height: 100%;
+	
+}
+
+
+a {
+	color: ivory;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 17px;
+}
+
+header {
+	height: 100%;
+	max-width: max-content;
+	display: inline-block;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: rgb(242, 240, 240);
+
+}
+
+#plogo {
+	position: relative;
+	top: 20px;
+	right: 15cm;
+	margin-bottom: 32px;
+	padding-left: 0px;
+	height: 0%;
+	width: 10%;
+}
+
+header nav{
+	display: inline-block;
+	position: relative;
+	top: 10px;
+	
+}
+
+.nav-item {
+	color: black;
+	display: inline-block;
+	position: relative;
+	right: 120px;
+	top: 0px;
+	bottom: 13px;
+
+}
+
+.nav-item a {
+	font-size: 25px;
+	font-family: 'Oswald', sans-serif;	
+	color: rgb(0, 0, 0);
+}
+
+.nav-item a:hover {
+	color: rgb(94, 94, 94);
+}
+
+body {
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+	background-image: url(../images/fond.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+
+#containerTitle{
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin-left: 2cm;
+    margin-top: 20px;
+    margin-right: 10px;
+    color: #000000;
+}
+.containerContent hr {
+    height: 5px;
+    width: 91%;
+    position: relative;
+    left: 4%;
+    bottom: 28px;
+    background-color: rgb(0, 0, 0);
+}
+
+#containerInfo{
+	background-color: rgb(242, 240, 240);
+	padding-top: 1cm;
+}
+
+#containerMaps{
+    position: relative;
+    display: inline-block;
+    margin: 1cm 1cm 2cm 2cm;
+	left: 100px;
+    border-radius: 2px;
+    border-color: #1E1E1E;
+    border-style: groove;
+    height: 12cm;
+}
+
+#containerText{
+    display: inline-block;
+    position: relative;
+    margin-left: 0.5cm;
+    bottom: 1cm;
+    left: 90px;
+}
+
+#containerText h3 {
+    text-align: justify;
+    font-style: normal;
+    font-size: 29px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #000000;
+
+}
+
+#containerText p{
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #000000;
+}
+
+
+footer{
+	background-color: #1d1d1d;
+	background-repeat: no-repeat;
+	color: aliceblue;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	width: 100%;
+}
+
+.piePag{
+	position: relative;
+	top: 0cm;
+	display: inline-block;
+	margin-right: 1cm;
+}
+
+.footer-class{
+	width: 100%;
+}
+
+.container{
+
+	position: relative;
+	margin: 0px 0px 0px 0px;
+	width: 100%;
+}
+
+#footAp{
+	margin-top: 10px;
+	position: relative;
+	bottom: 1cm;
+	left: 6cm;
+	line-height : 30px;
+	margin-right: 0px;
+}
+
+#titleContact{
+	position: relative;
+	bottom: 23px;
+	left: 30px;
+}
+
+#infoContact{
+	position: relative;
+	left: 30px;
+	bottom: 36px;
+}
+
+#info{
+	border-style: outset;
+	border-color: #000;
+	border-radius: 5px;
+	position: relative;
+	background-color:#1E1E1E;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: white;
+	font-size: 17px;
+	font-family: Georgia;
+}
+
+.formContact {
+	position: relative;
+	left: 500px;
+	margin-right: 0px;
+	display: inline-block;
+    width: 44%;
+	bottom: 15px;
+    margin-left: 0px;
+	margin-top: 20px;
+}
+
+.formContactTitle {
+    width: 100%;
+	position: relative;
+	top: 10px;
+    margin-bottom: 10px;
+	display: inline;
+    font-size: 22px;
+    color: #ffffff;
+    text-align: left;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.formContact input, textarea {
+    width: 100%;
+    background: #282828;
+    border: 1px solid #393939;
+    padding: 7px 10px;
+    margin: 0px 0px 10px 0px;
+    background-color: #FAFAFA;
+}
+
+.formContact #fromMail{
+	width: 55%;
+	position: relative;
+}
+
+.formContact #phoneMail{
+	width: 252px;
+}
+
+.formContact textarea {
+    height: 90px;
+}
+
+
+.formContact .btnEnviar {
+	position: relative;
+	width: 70px;
+	left: 500px;
+	bottom: 20px;
+	text-align: center;
+    background: #92bf24;
+    border: none;
+    border-radius: 2px;
+    color: #3d5602;
+    font-weight: 800;
+}
+
+.formContact .btnEnviar:hover {
+    background: #a6d82c;
+}

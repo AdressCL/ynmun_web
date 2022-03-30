@@ -1,0 +1,385 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	max-width: 100%;
+	max-height: 100%;
+	
+}
+
+
+a {
+	color: ivory;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 17px;
+}
+
+header {
+	height: 100%;
+	max-width: max-content;
+	display: inline-block;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: rgb(242, 240, 240);
+
+}
+
+#plogo {
+	position: relative;
+	top: 20px;
+	right: 15cm;
+	margin-bottom: 32px;
+	padding-left: 0px;
+	height: 0%;
+	width: 10%;
+}
+
+header nav{
+	display: inline-block;
+	position: relative;
+	top: 10px;
+	
+}
+
+.nav-item {
+	color: black;
+	display: inline-block;
+	position: relative;
+	right: 120px;
+	top: 0px;
+	bottom: 13px;
+
+}
+
+.nav-item a {
+	font-size: 25px;
+	font-family: 'Oswald', sans-serif;
+	color: rgb(0, 0, 0);
+}
+
+.nav-item a:hover {
+	color: rgb(94, 94, 94);
+}
+
+
+body {
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+	background-image: url(../images/fond.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+#rConsulta{
+	background-image: url(../images/btnFond.jpg);
+    background-color: rgba(10, 10, 10, 0.4);
+	background-blend-mode: soft-light;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+#btn_rConsulta{
+	margin: 6cm 1cm 6cm 1cm;
+	padding: 10px 30px 10px 30px;
+	background-color: #d17026;
+	border-radius: 7px;
+	border-style: solid;
+	align-content: center;
+	position: relative;
+	font-family: "Audiowide", sans-serif;
+	color: #FAFAFA;
+	left: 43%;
+}
+
+#btn_rConsulta:hover{
+	background-color: #1E1E1E;
+}
+
+.rsmnBlock{
+	display: inline-block;
+	padding: 1cm 1cm 1cm 1cm;
+}
+
+.presSections{
+	width: 100%;
+}
+
+.presContent{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+#rsmnIzq{
+	position: static;
+	width: 24.8cm;
+	background-color: black;
+	color: whitesmoke;
+}
+
+#rsmnIzqContent{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 32px;
+	font-style: italic;
+}
+
+#rsmnIzqContent b{
+	color: burlywood;
+}
+
+#rsmnIzq h2{
+	font-size: 20px;
+}
+
+#rsmnDer{
+	position: static;
+	bottom: 35px;
+	background-color: rgb(248, 248, 248);
+	width: 25.56cm;
+}
+
+#rsmnDerContent{
+	position: relative;
+	top: 16px;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#photoAbog{
+	position: static;
+	background-image: url(../abog_photos/n1abog.jpg);
+	background-size: 100%;
+	width: 24.8cm;
+	height: 780px;
+}
+
+#espContainer{
+	border-radius: 4px;
+	border-style: inset;
+	border-color: #1E1E1E;
+    background-color: rgba(27, 27, 27, 0.4);
+	margin: 1cm 0cm 1cm 1cm;
+	padding: 1cm 2cm 0cm 1.2cm;
+	width: 4400px;
+	max-width: max-content;
+}
+#espTitle{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 38px;
+	color: #FAFAFA;
+	font-style: initial;
+	text-shadow: #000;
+	text-align: center;
+	
+}
+.espContent{
+	padding-top: 1cm;
+	font-family: inherit;
+	height: 383px;
+	width: 410px;
+	margin-right: 20px;
+	margin-top: 20px;
+	background-color: rgb(55, 55, 55);
+	background-blend-mode: soft-light;
+	color: aliceblue;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-size: 140%;
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+	transition: .3s;
+}
+
+.espContent:hover{
+	box-shadow: 0px 20px 40px rgba(0,0,0,0.4);
+	transform: scale(1.05,1.05);
+	
+}
+
+
+.espInfo {
+	margin-left: 1cm;
+	margin-right: 1cm;
+	text-align: center;
+	line-height: 24px;
+	font-size: 15px;
+	
+}
+
+#espDL{
+	position: relative;
+	bottom: 72px;
+	background-position: center;
+}
+
+#espDF{
+	position: relative;
+	bottom: 24px;
+}
+
+#espDF a{
+	position: relative;
+	top: 30px;
+}
+
+#espDP{
+	position: relative;
+	bottom: 72px;
+}
+
+#espDP a{
+	position: relative;
+	left: 5px;
+}
+
+#espDC a{
+	position: relative;
+	top: 9px;
+}
+
+.linkLM{
+	font-style: inherit;
+	font-size: 17px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	position: relative;
+	bottom: 8px;
+}
+
+footer{
+	background-color: #1d1d1d;
+	background-repeat: no-repeat;
+	color: aliceblue;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	width: 100%;
+}
+
+.piePag{
+	position: relative;
+	top: 0cm;
+	display: inline-block;
+	margin-right: 1cm;
+}
+
+.footer-class{
+	width: 100%;
+}
+
+.container{
+
+	position: relative;
+	margin: 0px 0px 0px 0px;
+	width: 100%;
+}
+
+#footAp{
+	margin-top: 10px;
+	position: relative;
+	bottom: 1cm;
+	left: 6cm;
+	line-height : 30px;
+	margin-right: 0px;
+}
+
+#titleContact{
+	position: relative;
+	bottom: 23px;
+	left: 30px;
+}
+
+#infoContact{
+	position: relative;
+	left: 30px;
+	bottom: 36px;
+}
+
+#info{
+	border-style: outset;
+	border-color: #000;
+	border-radius: 5px;
+	position: relative;
+	background-color:#1E1E1E;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: white;
+	font-size: 17px;
+	font-family: Georgia;
+}
+
+.formContact {
+	position: relative;
+	left: 500px;
+	margin-right: 0px;
+	display: inline-block;
+    width: 44%;
+    margin-left: 0px;
+	margin-top: 20px;
+}
+
+.formContactTitle {
+    width: 100%;
+	position: relative;
+	top: 10px;
+    margin-bottom: 10px;
+	display: inline;
+    font-size: 22px;
+    color: #ffffff;
+    text-align: left;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.formContact input, textarea {
+    width: 100%;
+    background: #282828;
+    border: 1px solid #393939;
+    padding: 7px 10px;
+    margin: 0px 0px 10px 0px;
+    background-color: #FAFAFA;
+}
+
+.formContact #fromMail{
+	width: 55%;
+	position: relative;
+}
+
+.formContact #phoneMail{
+	width: 252px;
+}
+
+.formContact textarea {
+    height: 90px;
+}
+
+
+.formContact .btnEnviar {
+	position: relative;
+	width: 70px;
+	left: 500px;
+	bottom: 20px;
+	text-align: center;
+    background: #92bf24;
+    border: none;
+    border-radius: 2px;
+    color: #3d5602;
+    font-weight: 800;
+}
+
+.formContact .btnEnviar:hover {
+    background: #a6d82c;
+}
+
+/*#fIcon{
+	font-size: 15px;
+	border-radius: 5px;
+	padding-left: 8px;
+	padding-top: 0px;
+	background-color: whitesmoke;
+	border-style: outset;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	height: 210px;
+	width: 200px;
+	position: relative;
+	left: 20cm;
+}*/
+
